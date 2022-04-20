@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "forceConsistentCasingInFileNames": true,
+    "inlineSourceMap": true,
+    "skipLibCheck": true,
+    "lib": ["es2015", "esnext"],
+    "module": "commonjs",
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "outDir": "build",
+    "resolveJsonModule": true,
+    "strict": true,
+    "target": "es2015",
+    "typeRoots": ["node_modules/@types", "src/types"],
+    "types": ["node"]
+  },
+  "compileOnSave": true,
+  "exclude": ["node_modules/**", "prod_node_modules/**"],
+  "include": ["**/*.ts"]
+}
