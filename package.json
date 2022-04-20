@@ -6,6 +6,6 @@
     "@types/node": "^17.0.25"
   },
   "scripts": {
-    "go": "tsc -p tsconfig.json && node build/repl.js"
+    "watch": "tsc -w"
   }
 }

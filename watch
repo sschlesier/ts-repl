@@ -1,0 +1,4 @@
+#! /usr/bin/env bash
+
+npm run watch &
+fd --no-ignore --extension js . './build' | entr node build/repl.js
