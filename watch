@@ -2,3 +2,4 @@
 
 npm run watch &
 fd --no-ignore --extension js . './build' | entr node build/repl.js
+trap "trap - SIGTERM && kill -- -$$" SIGINT SIGTERM EXIT
